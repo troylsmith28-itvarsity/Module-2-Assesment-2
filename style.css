@@ -1,0 +1,860 @@
+/*============= TABS =============*/
+
+#tabs-top {
+    top: 100px;
+    position: fixed;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 100px;
+    background-color: royalblue;
+}
+
+#tabs-top a {
+    float: left;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Segoe UI";
+    padding-top: 8px;
+    font-size: medium;
+    display: block;
+    white-space: normal;
+}
+
+#tabs-top a:hover {
+    color: midnightblue;
+}
+
+#tabs-bottom {
+    position: fixed;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 75px;
+    background-color: royalblue;
+    bottom: 0;
+}
+
+#tabs-bottom a {
+    display: block;
+    text-align: center;
+    width: 50%;
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-family: "segoe ui";
+    padding-bottom: 100px;
+}
+
+#tabs-bottom a:hover {
+    color: midnightblue;
+}
+
+/*================= TITLE ===================*/
+#title h2 {
+    font-family: "segoe UI";
+    font-weight: bold;
+    font-size: xx-large;
+    position: fixed;
+    width: 100%;
+    background-color: midnightblue;
+    height: 170px;
+    z-index: 499;
+    left: 0;
+    right: 0;
+    top: -30px;
+}
+
+#title a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    z-index: 500;
+}
+
+#title a:hover {
+    text-decoration: wavy;
+    color: royalblue;
+}
+
+/*================ BACKGROUND IMAGE ===================*/
+
+body {
+    background: url(images/midnight-blue-color.PNG);
+    height: 100%;
+    width: 100%;
+}
+
+/*================= SHOP INFO BOX ========================*/
+
+#ocean-basket {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#woolworths {
+    position: relative;
+    top: 180px;
+    padding-bottom: 50px;
+}
+
+#spur {
+    position: relative;
+
+    padding-bottom: 50px;
+}
+
+#pnp-shops {
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+
+#checkers-shops {
+    padding-bottom: 50px;
+}
+
+#ackermans-shops {
+    padding-bottom: 50px;
+}
+
+#pep-shops {
+    padding-bottom: 50px;
+}
+
+#woolworths-shops {
+    padding-bottom: 50px;
+}
+
+#space-bottom {
+    bottom: 0;
+}
+
+#incredible-connection-shops {
+    padding-bottom: 55px;
+}
+
+.a info-box {
+    text-decoration: none;
+    background: rgba(255.255.255.0.8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+    padding-top: 250px;
+}
+
+.info-box img {
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3 {
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: royalblue;
+    font-family: "Segoe UI";
+    text-decoration: none;
+}
+
+.info-box p {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: white;
+    font-family: "Segoe UI";
+    text-decoration: none;
+}
+
+/*================= INFO BOX FULL ==========================*/
+
+#info-box-full {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#info-box-full img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 200px;
+}
+
+#info-box-full h3 {
+    color: #fff;
+    font-family: "Segoe Ui";
+    text-align: center;
+    text-decoration: underline;
+}
+
+#info-box-full p {
+    color: #fff;
+    font-family: "Segoe UI";
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin: 12px 0;
+    border: 5px solid #4169e1;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    margin: 12px 0;
+    border: 5px solid #4169e1;
+}
+
+.button {
+    display: block;
+    background-color: royalblue;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+    width: 100%;
+    font-family: "Segoe UI";
+}
+
+.button:hover {
+    color: midnightblue;
+}
+
+/*================== SHOP CATEGORIES =======================*/
+
+#category-heading-RES h3 {
+    margin-top: 200px;
+    text-align: center;
+    color: royalblue;
+    font-family: "Segoe UI";
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+#category-heading-GRO h3 {
+    text-align: center;
+    color: royalblue;
+    font-family: "Segoe UI";
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+#category-heading-CLO h3 {
+    color: royalblue;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Segoe UI";
+    font-size: x-large;
+}
+
+#category-heading-APP h3 {
+    color: royalblue;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Segoe UI";
+    font-size: x-large;
+}
+
+/*================== INFO BOX FULL OCEAN BASKET ==============*/
+
+#info-box-full-OB {
+    background-color: rgba(46, 209, 243, 0.5);
+    display: block;
+    position: relative;
+    z-index: 450;
+    height: 650px;
+    width: 80%;
+    top: 220px;
+    left: 10%;
+    bottom: 80px;
+}
+
+#info-box-full-OB h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: "Segoe UI";
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#info-box-full-OB img {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    padding-top: 20px;
+}
+
+#info-box-full-OB p {
+    padding-left: 170px;
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 100%;
+}
+
+#OB-food-1-img img {
+    position: absolute;
+    top: 250px;
+}
+
+#OB-food-2-img img {
+    position: absolute;
+    top: 430px;
+}
+
+#filler-OB p {
+    color: midnightblue;
+    position: absolute;
+    bottom: -175px;
+}
+
+/*================== INFO BOX FULL SPUR ==============*/
+
+#info-box-full-spur {
+    background-color: rgba(197, 32, 39);
+    display: block;
+    position: relative;
+    z-index: 450;
+    height: 650px;
+    width: 80%;
+    top: 220px;
+    left: 10%;
+    bottom: 80px;
+}
+
+#info-box-full-spur h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: "Segoe UI";
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#info-box-full-spur img {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    padding-top: 20px;
+}
+
+#info-box-full-spur p {
+    padding-left: 170px;
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 100%;
+}
+
+#spur-food-1-img img {
+    position: absolute;
+    top: 250px;
+}
+
+#spur-food-2-img img {
+    position: absolute;
+    top: 430px;
+}
+
+#filler-spur p {
+    color: midnightblue;
+    position: absolute;
+    bottom: -175px;
+}
+
+/*================== INFO BOX FULL PICK N PAY ==============*/
+
+#info-box-full-PNP {
+    background-color: rgba(166, 1, 63);
+    display: block;
+    position: relative;
+    z-index: 450;
+    height: 650px;
+    width: 80%;
+    top: 220px;
+    left: 10%;
+    bottom: 80px;
+}
+
+#info-box-full-PNP h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: "Segoe UI";
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#info-box-full-PNP img {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    padding-top: 20px;
+}
+
+#info-box-full-PNP p {
+    padding-left: 170px;
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 100%;
+}
+
+#PNP-store-1-img img {
+    position: absolute;
+    top: 250px;
+}
+
+#PNP-store-2-img img {
+    position: absolute;
+    top: 430px;
+}
+
+#filler-PNP p {
+    color: midnightblue;
+    position: absolute;
+    bottom: -175px;
+}
+
+/*================== INFO BOX FULL CHECKERS ==============*/
+
+#info-box-full-CHE {
+    background-color: rgba(1, 140, 133);
+    display: block;
+    position: relative;
+    z-index: 450;
+    height: 650px;
+    width: 80%;
+    top: 220px;
+    left: 10%;
+    bottom: 80px;
+}
+
+#info-box-full-CHE h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: "Segoe UI";
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#info-box-full-CHE img {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    padding-top: 20px;
+}
+
+#info-box-full-CHE p {
+    padding-left: 170px;
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 100%;
+}
+
+#CHE-store-1-img img {
+    position: absolute;
+    top: 250px;
+}
+
+#CHE-store-2-img img {
+    position: absolute;
+    top: 430px;
+}
+
+#filler-CHE p {
+    color: midnightblue;
+    position: absolute;
+    bottom: -175px;
+}
+
+/*================== INFO BOX FULL ACKERMANS ==============*/
+
+#info-box-full-ACK {
+    background-color: #00a344;
+    display: block;
+    position: relative;
+    z-index: 450;
+    height: 650px;
+    width: 80%;
+    top: 220px;
+    left: 10%;
+    bottom: 80px;
+}
+
+#info-box-full-ACK h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: "Segoe UI";
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#info-box-full-ACK img {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    padding-top: 20px;
+}
+
+#info-box-full-ACK p {
+    padding-left: 170px;
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 100%;
+}
+
+#ACK-store-1-img img {
+    position: absolute;
+    top: 250px;
+}
+
+#ACK-store-2-img img {
+    position: absolute;
+    top: 430px;
+}
+
+#filler-ACK p {
+    color: midnightblue;
+    position: absolute;
+    bottom: -175px;
+}
+
+/*================== INFO BOX FULL PEP ==============*/
+
+#info-box-full-PEP {
+    background-color: royalblue;
+    display: block;
+    position: relative;
+    z-index: 450;
+    height: 650px;
+    width: 80%;
+    top: 220px;
+    left: 10%;
+    bottom: 80px;
+}
+
+#info-box-full-PEP h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: "Segoe UI";
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#info-box-full-PEP img {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    padding-top: 20px;
+}
+
+#info-box-full-PEP p {
+    padding-left: 170px;
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 100%;
+}
+
+#PEP-store-1-img img {
+    position: absolute;
+    top: 250px;
+}
+
+#PEP-store-2-img img {
+    position: absolute;
+    top: 430px;
+}
+
+#filler-PEP p {
+    color: midnightblue;
+    position: absolute;
+    bottom: -175px;
+}
+
+/*================== INFO BOX FULL IC ==============*/
+
+#info-box-full-IC {
+    background-color: #009247;
+    display: block;
+    position: relative;
+    z-index: 450;
+    height: 650px;
+    width: 80%;
+    top: 220px;
+    left: 10%;
+    bottom: 80px;
+}
+
+#info-box-full-IC h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: "Segoe UI";
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#info-box-full-IC img {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    padding-top: 20px;
+}
+
+#info-box-full-IC p {
+    padding-left: 170px;
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 100%;
+}
+
+#IC-store-1-img img {
+    position: absolute;
+    top: 250px;
+}
+
+#IC-store-2-img img {
+    position: absolute;
+    top: 430px;
+}
+
+#filler-IC p {
+    color: midnightblue;
+    position: absolute;
+    bottom: -175px;
+}
+
+/*================== ABOUT PAGE ==================*/
+#bottom-p p {
+    color: #fff;
+    font-family: "Segoe UI";
+    position: relative;
+    top: 450px;
+    left: 25px;
+    z-index: 500;
+}
+
+#about-page img {
+    width: 40%;
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+#about-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 60px;
+    height: 400px;
+    width: 450px;
+    left: 10px;
+}
+
+#about-page h2 {
+    color: #fff;
+    font-family: "Segoe UI";
+    position: relative;
+    bottom: 180px;
+    left: 225px;
+    text-decoration: underline;
+}
+#about-page p {
+    color: #fff;
+    font-family: "Segoe UI";
+    position: relative;
+    left: 210px;
+    bottom: 200px;
+    width: 50%;
+}
+
+/*================== MAP OF MALL =======================*/
+
+#pine-mall-map img {
+    width: 90%;
+    position: relative;
+    top: 200px;
+    left: 15px;
+    height: 500px;
+}
+
+#pine-mall-map p {
+    color: #fff;
+    position: relative;
+    top: 250px;
+}
+
+
+/*================== MAIN PAGE IC =======================*/
+
+
+#store-sales-IC IMG{
+    position: relative;
+    top: 15px;
+    width: 25%;
+    left: 20px;
+}
+
+#store-sales-IC {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 200px;
+    height: 150px;
+    width: 450px;
+    left: 10px;
+
+}
+
+#store-sales-IC p{
+    color: #fff;
+    font-family: 'Segoe UI';
+    position: relative;
+    bottom: 90px;
+    left: 150px;
+    text-decoration: none;
+    
+}
+
+#store-sales-IC a{
+    text-decoration: none;
+    
+}
+
+/*================== MAIN PAGE PNP =======================*/
+
+
+#store-sales-pnp IMG{
+    position: relative;
+    top: 15px;
+    width: 25%;
+    left: 20px;
+}
+
+#store-sales-pnp {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 220px;
+    height: 150px;
+    width: 450px;
+    left: 10px;
+
+}
+
+#store-sales-pnp p{
+    color: #fff;
+    font-family: 'Segoe UI';
+    position: relative;
+    bottom: 90px;
+    left: 150px;
+    text-decoration: none;
+    
+}
+
+#store-sales-pnp a{
+    text-decoration: none;
+    
+}
+
+/*================== MAIN PAGE W =======================*/
+
+
+#store-sales-w IMG{
+    position: relative;
+    top: 15px;
+    width: 25%;
+    left: 20px;
+}
+
+#store-sales-w {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 240px;
+    height: 150px;
+    width: 450px;
+    left: 10px;
+
+}
+
+#store-sales-w p{
+    color: #fff;
+    font-family: 'Segoe UI';
+    position: relative;
+    bottom: 90px;
+    left: 150px;
+    text-decoration: none;
+    
+}
+
+#store-sales-w a{
+    text-decoration: none;
+    
+}
+
+/*================== MAIN PAGE SPUR =======================*/
+
+
+#store-sales-spur IMG{
+    position: relative;
+    top: 15px;
+    width: 25%;
+    left: 20px;
+}
+
+#store-sales-spur {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 260px;
+    height: 150px;
+    width: 450px;
+    left: 10px;
+
+}
+
+#store-sales-spur p{
+    color: #fff;
+    font-family: 'Segoe UI';
+    position: relative;
+    bottom: 90px;
+    left: 150px;
+    text-decoration: none;
+    
+}
+
+#store-sales-spur a{
+    text-decoration: none;
+    
+}
+
+/*================== MAIN PAGE FILLER TEXT =======================*/
+
+#filler-main-page p{
+    position: relative;
+    top: 350px
+}
+
+
+
+
+
+

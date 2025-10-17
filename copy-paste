@@ -1,0 +1,72 @@
+SPUR
+<div id="spur">
+                <a class="info-box" href="#">
+                    <img src="images/spur-image.png" />
+                    <h3>SPUR</h3>
+                    <p>People With the Taste for Life</p>
+                </a>
+                
+WOOLWORTHS                
+<div id="woolworths">
+                <a class="info-box" href="#">
+                    <img src="images/woolworths-image.jpg" />
+                    <h3>WOOLWORTHS</h3>
+                    <p>The Fresh Food People</p>
+                </a>                
+                
+                
+
+--------------------------------------------------------------------------------------
+
+
+#info-box-full-spur {
+    background-color: rgba(46, 209, 243,0.5);
+    display: block;
+    position: relative;
+    z-index: 450; 
+    height: 650px;
+    width: 80%;
+    top: 220px;
+    left: 10%;
+    bottom:80px
+}
+
+#info-box-full-spur h3{
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+    font-family: 'Segoe UI';
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#info-box-full-spur img{
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    padding-top: 20px;
+}
+
+#info-box-full-spur p{
+    padding-left: 170px;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 100%;
+}
+
+#spur-food-1-img img{
+    position: absolute;
+    top: 250px;
+}
+
+#spur-food-2-img img{
+    position: absolute;
+    top: 430px
+}
+
+#filler-spur p{
+    color: midnightblue;
+    position: absolute;
+    bottom: -175px;
+}
