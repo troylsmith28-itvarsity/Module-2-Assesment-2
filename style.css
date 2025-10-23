@@ -18,7 +18,7 @@
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-family: "Segoe UI";
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 8px;
     font-size: medium;
     display: block;
@@ -56,7 +56,7 @@
 
 /*================= TITLE ===================*/
 #title h2 {
-    font-family: "segoe UI";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: xx-large;
     position: fixed;
@@ -92,41 +92,53 @@ body {
 /*================= SHOP INFO BOX ========================*/
 
 #ocean-basket {
-    position: relative;
+    position: block;
     padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #woolworths {
-    position: relative;
+    position: block;
     top: 180px;
     padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #spur {
-    position: relative;
-
+    position: block;
+    background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 50px;
 }
 
 #pnp-shops {
     text-decoration: none;
     padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
 }
 
 #checkers-shops {
     padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
 }
 
 #ackermans-shops {
     padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
 }
 
 #pep-shops {
     padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
 }
 
 #woolworths-shops {
     padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
 }
 
 #space-bottom {
@@ -135,41 +147,34 @@ body {
 
 #incredible-connection-shops {
     padding-bottom: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 70px;
+    position: block;
 }
 
-.a info-box {
-    text-decoration: none;
-    background: rgba(255.255.255.0.8);
-    width: 90%;
-    height: 90px;
-    display: block;
-    margin: auto;
-    margin-top: 12px;
-    padding: 1px;
-    padding-top: 250px;
-}
-
-.info-box img {
-    height: 70px;
+#content img {
+    height: 100px;
     margin: 10px;
     float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-.info-box h3 {
-    padding: 0;
-    margin-bottom: 0;
+#content h3 {
     width: 90%;
-    color: royalblue;
-    font-family: "Segoe UI";
-    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    padding-top: 20px;
 }
 
-.info-box p {
+#content p {
     margin: 0;
     padding: 0;
     width: 90%;
     color: white;
-    font-family: "Segoe UI";
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
@@ -238,623 +243,824 @@ textarea {
 #category-heading-RES h3 {
     margin-top: 200px;
     text-align: center;
-    color: royalblue;
+    color: #fff;
     font-family: "Segoe UI";
     text-decoration: underline;
     font-size: x-large;
+    text-decoration-color: royalblue;
 }
 
 #category-heading-GRO h3 {
     text-align: center;
-    color: royalblue;
+    color: #fff;
     font-family: "Segoe UI";
     text-decoration: underline;
     font-size: x-large;
+    text-decoration-color: royalblue;
 }
 
 #category-heading-CLO h3 {
-    color: royalblue;
+    color: #fff;
     text-align: center;
     text-decoration: underline;
     font-family: "Segoe UI";
     font-size: x-large;
+    text-decoration-color: royalblue;
 }
 
 #category-heading-APP h3 {
-    color: royalblue;
+    color: #fff;
     text-align: center;
     text-decoration: underline;
     font-family: "Segoe UI";
     font-size: x-large;
+    text-decoration-color: royalblue;
 }
 
 /*================== INFO BOX FULL OCEAN BASKET ==============*/
-
-#info-box-full-OB {
-    background-color: rgba(46, 209, 243, 0.5);
-    display: block;
-    position: relative;
-    z-index: 450;
-    height: 650px;
-    width: 80%;
-    top: 220px;
-    left: 10%;
-    bottom: 80px;
+#OB-box-1 {
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 40px;
 }
 
-#info-box-full-OB h3 {
-    color: white;
-    text-decoration: underline;
-    font-size: x-large;
-    font-family: "Segoe UI";
-    text-align: center;
-    margin-bottom: 0;
-}
-
-#info-box-full-OB img {
+#OB-box-1 img {
     width: 150px;
-    padding: 10px;
-    position: absolute;
-    display: block;
-    padding-top: 20px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#info-box-full-OB p {
-    padding-left: 170px;
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 100%;
+#OB-box-1 h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-top: 70px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-size: xx-large;
 }
 
-#OB-food-1-img img {
-    position: absolute;
-    top: 250px;
+#OB-box-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 
-#OB-food-2-img img {
-    position: absolute;
-    top: 430px;
+#OB-box-2 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#filler-OB p {
-    color: midnightblue;
-    position: absolute;
-    bottom: -175px;
+#OB-box-2 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+#OB-box-3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+
+#OB-box-3 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#OB-box-3 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: larger;
 }
 
 /*================== INFO BOX FULL SPUR ==============*/
 
-#info-box-full-spur {
-    background-color: rgba(197, 32, 39);
-    display: block;
-    position: relative;
-    z-index: 450;
-    height: 650px;
-    width: 80%;
-    top: 220px;
-    left: 10%;
-    bottom: 80px;
+#spur-box-1 {
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 40px;
 }
 
-#info-box-full-spur h3 {
-    color: white;
-    text-decoration: underline;
-    font-size: x-large;
-    font-family: "Segoe UI";
-    text-align: center;
-    margin-bottom: 0;
-}
-
-#info-box-full-spur img {
+#spur-box-1 img {
     width: 150px;
-    padding: 10px;
-    position: absolute;
-    display: block;
-    padding-top: 20px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#info-box-full-spur p {
-    padding-left: 170px;
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 100%;
+#spur-box-1 h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-top: 70px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-size: xx-large;
 }
 
-#spur-food-1-img img {
-    position: absolute;
-    top: 250px;
+#spur-box-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 
-#spur-food-2-img img {
-    position: absolute;
-    top: 430px;
+#spur-box-2 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#filler-spur p {
-    color: midnightblue;
-    position: absolute;
-    bottom: -175px;
+#spur-box-2 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+#spur-box-3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+
+#spur-box-3 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#spur-box-3 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: larger;
 }
 
 /*================== INFO BOX FULL PICK N PAY ==============*/
 
-#info-box-full-PNP {
-    background-color: rgba(166, 1, 63);
-    display: block;
-    position: relative;
-    z-index: 450;
-    height: 650px;
-    width: 80%;
-    top: 220px;
-    left: 10%;
-    bottom: 80px;
+#pnp-box-1 {
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 40px;
 }
 
-#info-box-full-PNP h3 {
-    color: white;
-    text-decoration: underline;
-    font-size: x-large;
-    font-family: "Segoe UI";
-    text-align: center;
-    margin-bottom: 0;
-}
-
-#info-box-full-PNP img {
+#pnp-box-1 img {
     width: 150px;
-    padding: 10px;
-    position: absolute;
-    display: block;
-    padding-top: 20px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#info-box-full-PNP p {
-    padding-left: 170px;
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 100%;
+#pnp-box-1 h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-top: 70px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-size: xx-large;
 }
 
-#PNP-store-1-img img {
-    position: absolute;
-    top: 250px;
+#pnp-box-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 
-#PNP-store-2-img img {
-    position: absolute;
-    top: 430px;
+#pnp-box-2 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#filler-PNP p {
-    color: midnightblue;
-    position: absolute;
-    bottom: -175px;
+#pnp-box-2 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+#pnp-box-3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+
+#pnp-box-3 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#pnp-box-3 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: larger;
 }
 
 /*================== INFO BOX FULL CHECKERS ==============*/
 
-#info-box-full-CHE {
-    background-color: rgba(1, 140, 133);
-    display: block;
-    position: relative;
-    z-index: 450;
-    height: 650px;
-    width: 80%;
-    top: 220px;
-    left: 10%;
-    bottom: 80px;
+#che-box-1 {
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 40px;
 }
 
-#info-box-full-CHE h3 {
-    color: white;
-    text-decoration: underline;
-    font-size: x-large;
-    font-family: "Segoe UI";
-    text-align: center;
-    margin-bottom: 0;
-}
-
-#info-box-full-CHE img {
+#che-box-1 img {
     width: 150px;
-    padding: 10px;
-    position: absolute;
-    display: block;
-    padding-top: 20px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#info-box-full-CHE p {
-    padding-left: 170px;
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 100%;
+#che-box-1 h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-top: 70px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-size: xx-large;
 }
 
-#CHE-store-1-img img {
-    position: absolute;
-    top: 250px;
+#che-box-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 
-#CHE-store-2-img img {
-    position: absolute;
-    top: 430px;
+#che-box-2 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#filler-CHE p {
-    color: midnightblue;
-    position: absolute;
-    bottom: -175px;
+#che-box-2 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+#che-box-3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+
+#che-box-3 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#che-box-3 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: larger;
 }
 
 /*================== INFO BOX FULL ACKERMANS ==============*/
 
-#info-box-full-ACK {
-    background-color: #00a344;
-    display: block;
-    position: relative;
-    z-index: 450;
-    height: 650px;
-    width: 80%;
-    top: 220px;
-    left: 10%;
-    bottom: 80px;
+#ack-box-1 {
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 40px;
 }
 
-#info-box-full-ACK h3 {
-    color: white;
-    text-decoration: underline;
-    font-size: x-large;
-    font-family: "Segoe UI";
-    text-align: center;
-    margin-bottom: 0;
-}
-
-#info-box-full-ACK img {
+#ack-box-1 img {
     width: 150px;
-    padding: 10px;
-    position: absolute;
-    display: block;
-    padding-top: 20px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#info-box-full-ACK p {
-    padding-left: 170px;
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 100%;
+#ack-box-1 h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-top: 70px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-size: xx-large;
 }
 
-#ACK-store-1-img img {
-    position: absolute;
-    top: 250px;
+#ack-box-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 
-#ACK-store-2-img img {
-    position: absolute;
-    top: 430px;
+#ack-box-2 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#filler-ACK p {
-    color: midnightblue;
-    position: absolute;
-    bottom: -175px;
+#ack-box-2 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    margin-left: 200px;
+    font-size: larger;
 }
+
+#ack-box-3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+
+#ack-box-3 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#ack-box-3 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+
 
 /*================== INFO BOX FULL PEP ==============*/
 
-#info-box-full-PEP {
-    background-color: royalblue;
-    display: block;
-    position: relative;
-    z-index: 450;
-    height: 650px;
-    width: 80%;
-    top: 220px;
-    left: 10%;
-    bottom: 80px;
+#pep-box-1 {
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 40px;
 }
 
-#info-box-full-PEP h3 {
-    color: white;
-    text-decoration: underline;
-    font-size: x-large;
-    font-family: "Segoe UI";
-    text-align: center;
-    margin-bottom: 0;
-}
-
-#info-box-full-PEP img {
+#pep-box-1 img {
     width: 150px;
-    padding: 10px;
-    position: absolute;
-    display: block;
-    padding-top: 20px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#info-box-full-PEP p {
-    padding-left: 170px;
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 100%;
+#pep-box-1 h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-top: 70px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-size: xx-large;
 }
 
-#PEP-store-1-img img {
-    position: absolute;
-    top: 250px;
+#pep-box-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 
-#PEP-store-2-img img {
-    position: absolute;
-    top: 430px;
+#pep-box-2 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#filler-PEP p {
-    color: midnightblue;
-    position: absolute;
-    bottom: -175px;
+#pep-box-2 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+#pep-box-3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+
+#pep-box-3 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#pep-box-3 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+/*================== INFO BOX FULL WOOLWORTHS ==============*/
+
+#w-box-1 {
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 40px;
+}
+
+#w-box-1 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#w-box-1 h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-top: 70px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-size: xx-large;
+}
+
+#w-box-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+#w-box-2 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#w-box-2 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+#w-box-3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+
+#w-box-3 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#w-box-3 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: larger;
 }
 
 /*================== INFO BOX FULL IC ==============*/
 
-#info-box-full-IC {
-    background-color: #009247;
-    display: block;
-    position: relative;
-    z-index: 450;
-    height: 650px;
-    width: 80%;
-    top: 220px;
-    left: 10%;
-    bottom: 80px;
+#ic-box-1 {
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 40px;
 }
 
-#info-box-full-IC h3 {
-    color: white;
-    text-decoration: underline;
-    font-size: x-large;
-    font-family: "Segoe UI";
-    text-align: center;
-    margin-bottom: 0;
-}
-
-#info-box-full-IC img {
+#ic-box-1 img {
     width: 150px;
-    padding: 10px;
-    position: absolute;
-    display: block;
-    padding-top: 20px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
-#info-box-full-IC p {
-    padding-left: 170px;
-    color: white;
-    font-family: "Segoe UI";
-    font-size: 100%;
-}
-
-#IC-store-1-img img {
-    position: absolute;
-    top: 250px;
-}
-
-#IC-store-2-img img {
-    position: absolute;
-    top: 430px;
-}
-
-#filler-IC p {
-    color: midnightblue;
-    position: absolute;
-    bottom: -175px;
-}
-
-/*================== ABOUT PAGE ==================*/
-#bottom-p p {
+#ic-box-1 h3 {
     color: #fff;
-    font-family: "Segoe UI";
-    position: relative;
-    top: 450px;
-    left: 25px;
-    z-index: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-top: 70px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-size: xx-large;
 }
+
+#ic-box-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+#ic-box-2 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#ic-box-2 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+#ic-box-3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: block;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+
+#ic-box-3 img {
+    width: 150px;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
+}
+
+#ic-box-3 p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: larger;
+}
+/*================== ABOUT PAGE ==================*/
 
 #about-page img {
-    width: 40%;
-    position: relative;
-    left: 20px;
-    top: 25px;
+    width: 25%;
+    position: block;
+    margin: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
 #about-page {
     background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    top: 60px;
-    height: 400px;
-    width: 450px;
-    left: 10px;
+    position: block;
+    margin-top: 220px;
+    float: inline-start;
+    width: 100%;
+    height: 100%;
 }
 
 #about-page h2 {
     color: #fff;
     font-family: "Segoe UI";
-    position: relative;
-    bottom: 180px;
-    left: 225px;
+    position: block;
     text-decoration: underline;
+    text-decoration-color: royalblue;
 }
 #about-page p {
     color: #fff;
     font-family: "Segoe UI";
-    position: relative;
+    position: block;
     left: 210px;
     bottom: 200px;
-    width: 50%;
+    width: 90%;
+    margin-left: 20px;
 }
 
 /*================== MAP OF MALL =======================*/
 
 #pine-mall-map img {
     width: 90%;
-    position: relative;
-    top: 200px;
-    left: 15px;
+    position: block;
     height: 500px;
+    margin-top: 220px;
+    margin-left: 20px;
+    padding-bottom: 80px;
 }
-
-#pine-mall-map p {
-    color: #fff;
-    position: relative;
-    top: 250px;
-}
-
 
 /*================== MAIN PAGE IC =======================*/
 
-
-#store-sales-IC IMG{
-    position: relative;
-    top: 15px;
-    width: 25%;
-    left: 20px;
+#store-sales-IC IMG {
+    position: block;
+    width: 130px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-right: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
 #store-sales-IC {
     background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    top: 200px;
-    height: 150px;
-    width: 450px;
-    left: 10px;
-
+    position: block;
+    height: 200px;
+    width: 100%;
+    margin-top: 220px;
 }
 
-#store-sales-IC p{
+#store-sales-IC p {
     color: #fff;
-    font-family: 'Segoe UI';
-    position: relative;
-    bottom: 90px;
-    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: block;
     text-decoration: none;
-    
+    font-size: large;
 }
 
-#store-sales-IC a{
-    text-decoration: none;
-    
+#store-sales-IC h3 {
+    color: #fff;
+    position: block;
+    padding-top: 35px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
-
 /*================== MAIN PAGE PNP =======================*/
 
-
-#store-sales-pnp IMG{
-    position: relative;
-    top: 15px;
-    width: 25%;
-    left: 20px;
+#store-sales-pnp IMG {
+    position: block;
+    width: 130px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-right: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
 #store-sales-pnp {
     background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    top: 220px;
-    height: 150px;
-    width: 450px;
-    left: 10px;
-
+    position: block;
+    height: 200px;
+    width: 100%;
 }
 
-#store-sales-pnp p{
+#store-sales-pnp p {
     color: #fff;
-    font-family: 'Segoe UI';
-    position: relative;
-    bottom: 90px;
-    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: block;
     text-decoration: none;
-    
+    font-size: large;
 }
 
-#store-sales-pnp a{
-    text-decoration: none;
-    
+#store-sales-pnp h3 {
+    color: #fff;
+    position: block;
+    padding-top: 35px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
 
 /*================== MAIN PAGE W =======================*/
 
-
-#store-sales-w IMG{
-    position: relative;
-    top: 15px;
-    width: 25%;
-    left: 20px;
+#store-sales-w IMG {
+    position: block;
+    width: 130px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-right: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
 #store-sales-w {
     background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    top: 240px;
-    height: 150px;
-    width: 450px;
-    left: 10px;
-
+    position: block;
+    height: 200px;
+    width: 100%;
 }
 
-#store-sales-w p{
+#store-sales-w p {
     color: #fff;
-    font-family: 'Segoe UI';
-    position: relative;
-    bottom: 90px;
-    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: block;
     text-decoration: none;
-    
+    font-size: large;
 }
 
-#store-sales-w a{
-    text-decoration: none;
-    
+#store-sales-w h3 {
+    color: #fff;
+    position: block;
+    padding-top: 35px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
-
 /*================== MAIN PAGE SPUR =======================*/
 
-
-#store-sales-spur IMG{
-    position: relative;
-    top: 15px;
-    width: 25%;
-    left: 20px;
+#store-sales-spur IMG {
+    position: block;
+    width: 130px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-right: 20px;
+    float: left;
+    border: solid;
+    border-color: royalblue;
 }
 
 #store-sales-spur {
     background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    top: 260px;
-    height: 150px;
-    width: 450px;
-    left: 10px;
-
+    position: block;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 70px;
 }
 
-#store-sales-spur p{
+#store-sales-spur p {
     color: #fff;
-    font-family: 'Segoe UI';
-    position: relative;
-    bottom: 90px;
-    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: block;
     text-decoration: none;
-    
+    font-size: large;
 }
 
-#store-sales-spur a{
-    text-decoration: none;
-    
+#store-sales-spur h3 {
+    color: #fff;
+    position: block;
+    padding-top: 35px;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
-
-/*================== MAIN PAGE FILLER TEXT =======================*/
-
-#filler-main-page p{
-    position: relative;
-    top: 350px
-}
-
-
-
-
-
-
